@@ -28,7 +28,7 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Sudhir4500/Django-Expense-Tracker-API.git
+   git clone https://github.com/Sudhir4500/Expense_Tracker_API.git
    cd expense-tracker-api
 
 2. **Create a Virtual Environment:**
