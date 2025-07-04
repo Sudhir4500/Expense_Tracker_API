@@ -88,27 +88,31 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
   "tax": 10.00,
   "tax_type": "flat",
   "total": 110.00,
-  "created_at": "2025-01-01T10:00:00Z",
-  "updated_at": "2025-01-01T10:00:00Z"
+  "created_at": "2025-07-04T15:02:35.958606Z",
+  "updated_at": "2025-07-04T15:02:35.958606Z"
 }
 ```
 
 # Paginated List
 ```bash
 {
-  "count": 25,
-  "next": "http://api/expenses/?page=2",
-  "previous": null,
-  "results": [
-    {
-      "id": 1,
-      "title": "Grocery Shopping",
-      "amount": 100.00,
-      "transaction_type": "debit",
-      "total": 110.00,
-      "created_at": "2025-01-01T10:00:00Z"
-    }
-  ]
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "title": "Updated Grocery",
+            "description": "Updated desc",
+            "amount": "120.00",
+            "transaction_type": "debit",
+            "tax": "10.00",
+            "tax_type": "percentage",
+            "total": 132.0,
+            "created_at": "2025-07-04T15:02:35.958606Z",
+            "updated_at": "2025-07-04T15:02:35.958606Z"
+        }
+    ]
 }
 ```
 
