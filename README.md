@@ -131,7 +131,7 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
 └── requirements.txt
 
 ```
-#License
+## License
 This project is for educational purposes
 
 
