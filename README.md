@@ -78,6 +78,7 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
 
 # Sample Responses
 ## Single Record
+```bash
 {
   "id": 1,
   "title": "Grocery Shopping",
@@ -90,8 +91,10 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
   "created_at": "2025-01-01T10:00:00Z",
   "updated_at": "2025-01-01T10:00:00Z"
 }
+```
 
 # Paginated List
+```bash
 {
   "count": 25,
   "next": "http://api/expenses/?page=2",
@@ -107,13 +110,13 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
     }
   ]
 }
+```
 
 
 
 # Project Structure
 # Below is the directory structure for the Django Expense Tracker API:
-
-```bash
+   ```bash
 ├── expenses/
 │   ├── models.py
 │   ├── serializers.py
@@ -127,9 +130,8 @@ A RESTful API for personal expense/income tracking with JWT-based authentication
 ├── manage.py
 └── requirements.txt
 
-
-
-# License
+```
+#License
 This project is for educational purposes
 
 
